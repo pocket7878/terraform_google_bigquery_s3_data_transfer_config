@@ -15,5 +15,6 @@ resource "google_bigquery_data_transfer_config" "transfer_config" {
   }
   data_refresh_window_days = "${var.data_refresh_window_days}"
   location = "${var.location}"
-  project = var.project
+  project = "${var.project}"
+  disabled = "${var.disabled}"
 }
