@@ -44,7 +44,7 @@ variable "project" {
 variable "disabled" {
     type = bool
     description = "(Optional) When set to true, no runs are scheduled for a given transfer."
-    default = false
+    default = null
 }
 
 variable "schedule" {
